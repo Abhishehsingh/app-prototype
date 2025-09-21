@@ -1,0 +1,25 @@
+name: civic_sentinel
+description: Civic Sentinel - prototype
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.4.0
+  cloud_firestore: ^4.6.0
+  firebase_storage: ^11.1.0
+  image_picker: ^0.8.7+6
+  geolocator: ^9.0.2
+  uuid: ^3.0.7
+  google_maps_flutter: ^2.4.0
+  flutter_rating_bar: ^4.0.0
+  http: ^0.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
